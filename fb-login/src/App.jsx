@@ -6,8 +6,10 @@ import Text from "./components/text";
 const App = () => {
   return (
     <>
-      <Text />
-      <Form />
+      <div className="content">
+        <Text />
+        <Form />
+      </div>
     </>
   );
 }
